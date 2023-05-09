@@ -1,0 +1,957 @@
+/****************************FONTS*******************************/
+@font-face {
+  font-family: "Goldplay";
+  src: url(./assets/fonts/Goldplay\ Regular.otf);
+}
+
+@font-face {
+  font-family: "Goldplay-black";
+  src: url(./assets/fonts/Goldplay\ Black.otf);
+}
+
+/****************************GENERALS*******************************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  user-select: none;
+}
+
+/****************************DESKTOP*******************************/
+
+.navUList a:active {
+  color: #f4bc2f;
+}
+
+a {
+  text-decoration: none;
+}
+.titleCardOne {
+  font-family: "Goldplay-black";
+  margin-top: 10vw;
+
+  margin-left: 5vw;
+  font-size: 3.7vw;
+  color: white;
+}
+
+.subTitle {
+  font-family: "Goldplay";
+  margin-left: 5vw;
+  font-size: 2vw;
+  color: white;
+}
+.imgHuki {
+  width: 5vw;
+  position: absolute;
+  margin-top: 1vw;
+  margin-left: 3vw;
+}
+
+.nav {
+  box-shadow: 0vw 0vw 0.3vw #353285;
+  z-index: 1;
+  position: fixed;
+  font-family: "Goldplay";
+  font-size: 1.5vw;
+  padding: 0.5vw;
+  font-weight: 800;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+.card-one {
+  background-image: url(./assets/images/Banner\ huki-02.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  border-bottom-left-radius: 5vw;
+  border-bottom-right-radius: 5vw;
+}
+
+.imgGirlAndDogs {
+  margin-left: 55vw;
+  margin-top: -28vw;
+  height: 45vw;
+}
+
+.navUList {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+
+.elementUList {
+  margin-left: 2vw;
+}
+
+.elementUList:hover {
+  border-bottom: 0.5vw solid #ffc72c;
+  margin-bottom: -0.8vw;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+
+.downloadImages img {
+  position: absolute;
+  margin-top: 6vw;
+  margin-bottom: -10vw;
+  height: 5.5vw;
+  margin-left: 1vw;
+  border-radius: 1vw;
+  -webkit-border-radius: 1vw;
+  -moz-border-radius: 1vw;
+  -ms-border-radius: 1vw;
+  -o-border-radius: 1vw;
+}
+
+.hover:hover {
+  transition: 0.2s;
+  filter: drop-shadow(0vw 0vw 0.2vw black);
+  -webkit-filter: drop-shadow(0vw 0vw 0.2vw black);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.downloadImages {
+  margin-left: 4.5vw;
+}
+
+.textox {
+  font-weight: 500;
+  font-size: 1.7vw;
+}
+
+.btnDownloadNow {
+  position: absolute;
+  margin-top: 2.5vw;
+  font-family: "Goldplay-black";
+  border: none;
+  color: white;
+  font-size: 2vw;
+  width: 20vw;
+  padding: 0.5vw;
+  background-color: #f4bc2f;
+  border-radius: 2vw;
+  -webkit-border-radius: 2vw;
+  -moz-border-radius: 2vw;
+  -ms-border-radius: 2vw;
+  -o-border-radius: 2vw;
+}
+
+.card-one-footer {
+  padding: 0.01vw;
+  color: white;
+
+  font-size: 2vw;
+  font-family: "Goldplay";
+  font-weight: 100;
+  background-color: #7b66e3;
+  border-bottom-left-radius: 4vw;
+  border-bottom-right-radius: 4vw;
+}
+
+.card-two {
+  background-color: whitesmoke;
+  height: 38vw;
+}
+
+.contenedor {
+  margin-left: 4vw;
+  margin-top: 1vw;
+  padding: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  background-color: #4d49be;
+  width: 28.6vw;
+  border-radius: 4vw;
+  -webkit-border-radius: 4vw;
+  -moz-border-radius: 4vw;
+  -ms-border-radius: 4vw;
+  -o-border-radius: 4vw;
+}
+
+.contenedorAmarillo {
+  margin-left: 4vw;
+  margin-top: 1vw;
+  padding: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  background-color: #f4bc2f;
+  width: 28.6vw;
+  border-radius: 4vw;
+  -webkit-border-radius: 4vw;
+  -moz-border-radius: 4vw;
+  -ms-border-radius: 4vw;
+  -o-border-radius: 4vw;
+}
+
+.circulo {
+  background-color: #5e5aed;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.circuloAmarillo {
+  background-color: #ffe030;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.alinear {
+  text-align: center !important;
+  margin-left: 10vw;
+}
+.textContent {
+  font-size: 1.05vw;
+  margin-top: 0.3vw;
+  text-align: center;
+  margin-left: 3vw;
+  position: absolute;
+  color: white;
+  font-family: "Goldplay-black";
+}
+
+.imgHuella {
+  width: 10vw;
+  position: absolute;
+  margin-left: 1.3vw;
+  margin-top: 1vw;
+  filter: saturate(3.5);
+  -webkit-filter: saturate(3.5);
+}
+
+.divColorWhiteSmoke {
+  background-color: whitesmoke;
+  height: 60vw;
+}
+
+.imgHuellaRight {
+  margin-right: 1.3vw;
+  float: right;
+  width: 10vw;
+  margin-top: -9vw;
+  filter: saturate(3.5);
+  -webkit-filter: saturate(3.5);
+}
+
+.titleCardTwo {
+  font-size: 2.8vw;
+  font-family: "Goldplay-black";
+  color: #4d49be;
+  font-weight: 800;
+}
+.imgVideo {
+  margin-left: -3vw;
+  margin-top: -21vw;
+  height: 24vw;
+  position: absolute;
+  width: 35vw;
+}
+
+.card-three {
+  color: white;
+  padding: 3vw;
+  background-color: #4d49be;
+  font-family: "Goldplay";
+}
+
+.btnDownloadBig {
+  position: absolute;
+  margin-left: 35vw;
+  font-family: "Goldplay-black";
+  font-size: 2.3vw;
+  text-align: center;
+  background-color: #f4bc2f;
+  color: white;
+  padding: 1vw;
+  width: 23vw;
+  border: none;
+  border-radius: 4vw;
+  -webkit-border-radius: 4vw;
+  -moz-border-radius: 4vw;
+  -ms-border-radius: 4vw;
+  -o-border-radius: 4vw;
+}
+
+.downloadBig {
+  display: flex;
+  margin-left: 34vw;
+}
+
+.downloadBig img {
+  height: 5vw;
+  margin-top: 4vw;
+}
+
+.cardPets {
+  height: 20vw;
+  margin-left: 9vw;
+  margin-top: 3vw;
+}
+
+.textPetDog {
+  position: absolute;
+  font-size: 1.8vw;
+  text-align: center;
+  margin-left: 17vw;
+  margin-top: 7vw;
+  font-family: "Goldplay";
+  color: white;
+}
+
+.textPetCat {
+  font-family: "Goldplay";
+  position: absolute;
+  font-size: 1.8vw;
+  text-align: center;
+  color: white;
+  margin-top: -16vw;
+  margin-left: 35vw;
+}
+
+.portion1 {
+  width: 20%;
+  height: 40vw;
+  background-color: #ffc72c;
+}
+
+.portion2 {
+  width: 80%;
+  height: 40vw;
+  background-color: #7c6fec;
+}
+.card-five {
+  display: flex;
+}
+.imgCard5 {
+  height: 40vw;
+  position: absolute;
+  margin-left: 6vw;
+}
+
+.tituloCard5 {
+  position: absolute;
+  color: white;
+  font-family: "Goldplay-black";
+  margin-left: 34vw;
+  font-size: 3vw;
+  margin-top: 5vw;
+}
+
+.subTituloCard5 {
+  position: absolute;
+  color: white;
+
+  margin-left: 35vw;
+  margin-top: 12.5vw;
+  font-size: 1.8vw;
+}
+
+.card-six {
+  padding: 0.5vw;
+  margin-top: -3vw;
+  background-color: whitesmoke;
+}
+p {
+  font-family: "Goldplay";
+}
+
+b {
+  font-family: "Goldplay-black";
+}
+.cardSixTitle {
+  padding: 1.3vw;
+  text-align: center;
+  font-family: "Goldplay-black";
+  color: #4d49be;
+  font-size: 3vw;
+}
+
+.cardSixSubTitle {
+  margin-bottom: 3vw;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Goldplay";
+  color: #353285;
+  font-size: 1.5vw;
+  margin-top: -4vw;
+}
+
+.lineaAmarilla {
+  background-color: #ffc72c;
+  height: 3vw;
+}
+
+.btnDownloadBig2 {
+  position: absolute;
+  margin-top: 2.3vw;
+  font-family: "Goldplay-black";
+  font-size: 2vw;
+  margin-left: -9.5vw;
+  background-color: #7671f1;
+  color: white;
+  padding: 0.8vw;
+  width: 20vw;
+  border: none;
+  border-radius: 4vw;
+  -webkit-border-radius: 4vw;
+  -moz-border-radius: 4vw;
+  -ms-border-radius: 4vw;
+  -o-border-radius: 4vw;
+}
+
+.card-seven {
+  margin-top: -2.8vw;
+  height: 14vw;
+  background-color: #4d49be;
+}
+.dwnload {
+  height: 5vw;
+  margin-top: 1vw;
+}
+
+.dwnload:hover {
+  transition: 0.2s;
+  filter: drop-shadow(0vw 0vw 0.2vw black);
+  -webkit-filter: drop-shadow(0vw 0vw 0.2vw black);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.separate {
+  display: flex;
+  margin-left: 35vw;
+  position: absolute;
+}
+
+.card-eight {
+  height: 35vw;
+  background-color: white;
+}
+
+.dog3 {
+  height: 40vw;
+  margin-top: -8vw;
+  margin-left: 2vw;
+}
+
+.titleCard8 {
+  text-align: center;
+  margin-left: 30vw;
+  margin-top: -28vw;
+  font-size: 3vw;
+  color: #4e4ab7;
+  font-family: "Goldplay-black";
+}
+
+.subTitleCard8 {
+  font-weight: 800;
+  text-align: center;
+  margin-left: 30vw;
+  margin-top: -1vw;
+  font-size: 1.7vw;
+  color: #413f86;
+  font-family: "Goldplay";
+}
+button {
+  font-family: "Goldplay-black";
+}
+.divisor {
+  margin-left: 40vw;
+  margin-top: 3vw;
+}
+.card8Escribenos,
+.card8Email {
+  border: none;
+  font-family: "Goldplay-black";
+  font-size: 2.5vw;
+  margin-left: 2vw;
+  border-radius: 4vw;
+  -webkit-border-radius: 4vw;
+  -moz-border-radius: 4vw;
+  -ms-border-radius: 4vw;
+  -o-border-radius: 4vw;
+  padding: 0.6vw;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+}
+.card8Escribenos {
+  margin-left: 8.3vw;
+
+  color: white;
+  background-color: #7c6fec;
+}
+
+.card8Email {
+  width: 15vw;
+  background-color: #ffc72c;
+  color: #353285;
+  margin-left: 1vw;
+}
+
+.card8Email:hover {
+  cursor: pointer;
+  box-shadow: 0vw 0vw 0.5vw #ffc72c;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.card8Escribenos:hover {
+  cursor: pointer;
+  box-shadow: 0vw 0vw 0.5vw #7c6fec;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.comentarios {
+  display: flex;
+  height: 15vw;
+  background-color: whitesmoke;
+}
+.portion11 {
+  width: 50%;
+}
+
+.portion22 {
+  width: 50%;
+}
+
+.comentariosTitle {
+  font-family: "Goldplay";
+  margin-top: -9vw;
+  margin-left: 21vw;
+  font-size: 1.5vw;
+  color: #353285;
+}
+
+.comentariosSubTitle {
+  font-family: "Goldplay";
+  margin-top: -1.5vw;
+  margin-left: 21.1vw;
+  font-size: 1vw;
+  color: #7671f1;
+}
+
+.comentario {
+  margin-top: -0.5vw;
+  font-size: 1.1vw;
+  font-family: "Goldplay";
+  margin-left: 21vw;
+  color: #413f86;
+}
+.estrella {
+  margin-top: 3.3vw;
+  margin-left: 35vw;
+  height: 1.5vw;
+  position: absolute;
+}
+.estrella2 {
+  margin-top: 3.3vw;
+  margin-left: 33.5vw;
+  height: 1.5vw;
+  position: absolute;
+}
+.imgPerritos {
+  height: 10vw;
+  margin-top: 2vw;
+}
+
+.fixDogs {
+  margin-left: -2vw;
+}
+
+.perro1,
+.perro2 {
+  display: inline;
+  margin-left: 8vw;
+}
+
+.div1 {
+  position: absolute;
+  height: 12vw;
+  width: 38vw;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 13vw;
+  margin-top: 1vw;
+  border-radius: 2vw;
+  -webkit-border-radius: 2vw;
+  -moz-border-radius: 2vw;
+  -ms-border-radius: 2vw;
+  -o-border-radius: 2vw;
+}
+.card-ten {
+  display: flex;
+}
+.part1 {
+  font-family: "Goldplay";
+  width: 50%;
+  height: 38vw;
+
+  background-color: white;
+}
+
+.part2 {
+  width: 50%;
+  height: 38vw;
+  background-color: white;
+}
+
+.moveCard {
+  margin-top: 2.5vw;
+}
+
+.titleCard10 {
+  margin-left: 4.5vw;
+  color: #353285;
+  font-size: 2.5vw;
+}
+
+.textCard10 {
+  margin-left: 4.5svw;
+  color: #37348e;
+  font-size: 1.5vw;
+  font-family: "Goldplay";
+  font-weight: 800;
+  margin-top: -1vw;
+}
+
+.titleCard210 {
+  color: #353285;
+  font-size: 2.5vw;
+  margin-left: 4.5vw;
+  font-family: "Goldplay-black";
+}
+
+.textCard210 {
+  font-family: "Goldplay";
+  font-size: 1.2vw;
+  margin-left: 4.5vw;
+  color: black;
+}
+
+.respuesta1 {
+  user-select: none;
+  width: 40vw;
+  margin-left: 4.5vw;
+  position: absolute;
+  margin-top: 3.2vw;
+  display: none;
+  font-size: 0.83vw;
+}
+
+.respuesta2 {
+  user-select: none;
+  width: 40vw;
+  margin-left: 4.5vw;
+  position: absolute;
+  margin-top: 6.2vw;
+  display: none;
+  font-size: 0.83vw;
+}
+.respuesta3 {
+  user-select: none;
+  width: 40vw;
+  margin-left: 4.5vw;
+  position: absolute;
+  margin-top: 9.2vw;
+  display: none;
+  font-size: 0.83vw;
+}
+.linksCard10 {
+  user-select: none;
+  font-family: "Goldplay";
+  margin-left: 4.5vw;
+  font-size: 1.3vw;
+  margin-top: 1.3vw;
+  font-weight: 800;
+}
+
+.linksCard10:hover {
+  color: #f4bc2f;
+  cursor: pointer;
+}
+
+.dogFooter {
+  position: absolute;
+  height: 28vw;
+  margin-top: 10vw;
+  margin-left: 3vw;
+}
+
+.btnFinal {
+  font-family: "Goldplay-black";
+  position: absolute;
+  padding: 0.5vw;
+  width: 25vw;
+  background-color: #7c6fec;
+  font-size: 2.5vw;
+  border-radius: 4vw;
+  -webkit-border-radius: 4vw;
+  -moz-border-radius: 4vw;
+  -ms-border-radius: 4vw;
+  -o-border-radius: 4vw;
+  border: none;
+  color: white;
+  margin-left: 37vw;
+  margin-top: 26.5vw;
+}
+
+.lineaFinal {
+  height: 2vw;
+  background-color: #ffc72c;
+}
+
+.listar {
+  display: grid;
+  margin-top: -1vw;
+}
+
+.footer {
+  display: flex;
+}
+.footer1 {
+  height: 8vw;
+  width: 50%;
+  background-color: #4d49be;
+}
+.footer2 {
+  height: 8vw;
+  width: 50%;
+  background-color: #4d49be;
+}
+
+.imgWapp {
+  height: 1.5vw;
+  position: absolute;
+  margin-left: -2.3vw;
+  margin-top: -0.1vw;
+}
+.imgFb {
+  height: 2vw;
+}
+
+.imgInsta {
+  height: 2vw;
+  margin-right: 1vw;
+}
+.imgCorreo {
+  height: 1.5vw;
+  position: absolute;
+  margin-left: -2.9vw;
+}
+
+.imgInsta:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+
+.imgFb:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.logoFooter {
+  position: absolute;
+  height: 4vw;
+  margin-left: 45.5vw;
+  margin-top: 1.5vw;
+}
+
+.contactoFooter {
+  font-size: 1vw;
+  color: white;
+  font-family: "Goldplay";
+  margin-left: 8.9vw;
+}
+
+.telefono {
+  font-size: 0.9vw;
+  margin-top: 1.9vw;
+  position: absolute;
+  margin-left: 8.4vw;
+  font-family: "Goldplay";
+}
+
+.email {
+  margin-top: -0.1vw;
+  font-size: 1vw;
+  position: absolute;
+  margin-left: 8.9vw;
+  font-family: "Goldplay";
+}
+
+.siguenos {
+  font-size: 1vw;
+  position: absolute;
+  margin-left: 27.9vw;
+  color: white;
+  margin-top: -2vw;
+  font-family: "Goldplay";
+}
+
+.redes {
+  position: absolute;
+  margin-left: 27.5vw;
+}
+
+.politicas {
+  font-size: 1vw;
+  margin-top: 1vw;
+  position: absolute;
+  margin-left: 18.9vw;
+  font-family: "Goldplay";
+  color: white;
+}
+
+.alignFooter {
+  margin-top: 1vw;
+}
+
+.linkfooter {
+  color: white;
+}
+
+.linkfooter:hover {
+  color: #f4bc2f;
+}
+
+.politicas:hover {
+  color: #f4bc2f;
+}
+
+/****************************SLIDER*******************************/
+
+.slider {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(400px * 14);
+}
+
+.slider .slide {
+  width: 200px;
+}
+
+.slider .slide img {
+  width: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-400px * 7));
+    transform: translateX(calc(-400px * 7));
+    -moz-transform: translateX(calc(-400px * 7));
+    -ms-transform: translateX(calc(-400px * 7));
+    -o-transform: translateX(calc(-400px * 7));
+  }
+}
+
+
+
+/****************************TABLET DESIGN*******************************/
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/****************************MOBILE DESIGN*******************************/
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+  .navResp {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 15vw;
+    box-shadow: 0vw 0vw 0.5vw #353285;
+  }
+
+  .logoResp {
+    height: 8vw;
+    margin-top: 4vw;
+    margin-left: 6vw;
+    position: absolute;
+  }
+  .iconoNavResp {
+    width: 10vw;
+    position: absolute;
+    margin-left: 83vw;
+    margin-top: 3.5vw;
+  }
+
+  .desplegar {
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+}
